@@ -7,7 +7,7 @@ using UnityEngine.AI;
 public class PlayerController : MonoBehaviour
 {
     public CharacterController characterController;
-    private PlayerControls playerControls;
+    public PlayerControls playerControls;
     public NavMeshAgent agent;
 
     public Animator animator;
